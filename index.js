@@ -4,28 +4,11 @@ global.client = new Discord.Client({
 });
 const antiSwearWords = require("anti-swear-words-packages-discord")
 
-client.login("ODgzNDEzMTMyMzE0MzA0NTcy.YTJklw.RIFR20pnwa9bep_WQoPteDFjJQc");
+client.login("TOKEN_HERE");
 
 const fs = require("fs");
 
 const MongoClient = require("mongodb").MongoClient;
-
-/*var database;
-
-client.on("ready", () => {
-    var db = MongoClient.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
-    database = db.db("IdeeBot");
-})
-*/
-
-/*
-var urldb = "mongodb+srv://atomixdem:Simone28$@clusterideebot.wh1hi.mongodb.net/test"
-MongoClient.connect(urldb, { useNewUrlParser: true, useUnifiedTopology: true }, function (err, db) {
-    var database = db.db("IdeeBot");
-    database.createCollection("Idee");
-
-})
-*/
 
 
 
